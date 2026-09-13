@@ -11,6 +11,7 @@ For example:
 * The prime numbers inside this gap are **17, 19, 23**.
 
 This repository uses the **Lean 4 Interactive Theorem Prover** to write clean, logical code around this mathematical problem.
+From the lean codes, I have defined the prime numbers as the numbers remaining or surviving the sieve process(given), from $p^2$, where p is a prime number and up to another prime number square.
 
 
 I am always looking to learn and improve my code. If you find a better way to structure a tactic, see a logic bug, or want to suggest improvements, please help me.
