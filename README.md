@@ -1,21 +1,11 @@
-#  Legendre's Conjecture and Lean 4 for it:
+# Legendre's Conjecture and my Lean 4 Project
 
-I have a minimalist, dependency-free **Lean 4** project exploring **Legendre's Conjecture**. I am a 15-year-old student passionate about math and astronomy, and I built this to share my knowledge and proof with formal verification.
+Hi, I'm Arnav! I'm a 15-year-old student and love math and astronomy. I built this repository to share my work on Legendre's Conjecture using Lean 4.
 
-## What is Legendre's Conjecture:
-Legendre's conjecture is a famous, unsolved problem in number theory. It states that for every positive integer $n$, there is always at least one prime number between $n^2$ and $(n+1)^2$.
+## What is Legendre's Conjecture?
 
-For example:
-* If $n = 4$
-* $4^2 = 16$ and $5^2 = 25$
-* The prime numbers inside this gap are **17, 19, 23**.
+It's an unsolved number theory problem stating there's always a prime between $n^2$ and $(n+1)^2$. For instance, with $n = 4$, the gap between 16 and 25 contains primes like 17, 19, and 23.
 
-This repository uses the **Lean 4 Interactive Theorem Prover** to write clean, logical code around this mathematical problem.
+## Project Update
 
-
-From the lean codes, I have defined the prime numbers as the numbers remaining or surviving the sieve process(given), from $p^2$, where p is a prime number and up to another prime number square. Then I have compared with the natural number $n >= p $
-
-
-I am always looking to learn and improve my code. If you find a better way to structure a tactic, see a logic bug, or want to suggest improvements, please help me.
-
-
+After getting feedback from a mathematician in the Lean community, I learned my code proved a different version of the problem and had logical gaps. I'm stepping back from coding to focus purely on fixing the underlying math first.
